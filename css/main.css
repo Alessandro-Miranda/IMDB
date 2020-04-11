@@ -349,3 +349,47 @@ main
 	display: inline-block;
 	transition: all .3s ease-in-out;
 }
+/*footer style*/
+footer
+{
+	padding: 40px 0 20px 0;
+}
+footer img
+{
+	margin-left: 12px;
+}
+#networks
+{
+	float: right;
+	margin-right: 30px;
+	position: relative;
+	top: -5px;
+}
+#networks li
+{
+	display: inline-block;
+}
+#networks li:nth-child(2)
+{
+	margin-left: 25px;
+	margin-right: 25px;
+}
+#networks li a i
+{
+	color: #bababa;
+	font-size: 1.55em;
+}
+#networks li a:hover i[class$="twitter"]
+{
+	color: #55acee;
+	transition: color .2s ease-in-out;
+}
+#networks li a:hover i[class$="official"]
+{
+	color: #3b5998;
+	transition: color .2s ease-in-out;
+}
+#networks li a:hover i[class$="instagram"]
+{
+	color: #e95950;
+}
