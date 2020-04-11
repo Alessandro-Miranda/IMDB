@@ -58,6 +58,8 @@ header:after
 {
 	margin-right: 6.35em;
 	vertical-align: top;
+	position: relative;
+	z-index: 1;
 }
 #top-content
 {
