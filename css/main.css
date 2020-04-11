@@ -1,0 +1,123 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+*{
+	box-sizing: border-box;
+}
+
+/*global styles*/
+body
+{
+	font-family: "Montserrat", sans-serif;
+}
+.container
+{
+	max-width: 61.475em;
+	margin: 0 auto;
+}
+.space-top
+{
+	padding: 1.1em .6125em;
+}
+.clearFix
+{
+	clear: both;
+	overflow: hidden;
+}
+/*header styles*/
+/*menu, logo and profile picture*/
+header
+{
+	background-image: url(../img/capa-madmax2.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	position: relative;
+}
+header:after
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to top, rgba(0, 0, 0, .5) 0%, rgba(0, 212, 255, 0) 75%);
+}
+#top-content nav, #top-content li, #top-content #perfil, #perfil img, #perfil p
+{
+	display: inline-block;
+}
+#top-content a img
+{
+	margin-right: 6.35em;
+	vertical-align: top;
+}
+#top-content
+{
+	font-size: 1.3em;
+}
+#main-menu ul li
+{
+	font-size: .6875em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: top;
+	position: relative;
+	top: -.5em;
+}
+#main-menu a
+{
+	color: white;
+	text-decoration: none;
+}
+#main-menu li:nth-child(2)
+{
+	margin: 0 2.55em;
+}
+#perfil img
+{
+	width: 2.25em;
+	border-radius: 50%;
+	/*vertical-align: middle;*/
+}
+#perfil
+{
+	margin-left: 7.5em;
+}
+#perfil p
+{
+	font-size: 0.6875em;
+	position: relative;
+	top: -1.05em;
+	margin-left: .5em;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: white;
+}
+#title h1
+{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 4em;
+	color: #fff;
+	padding-left: .2em;
+}
+#genero ul li
+{
+	display: inline-block;
+	position: relative;
+	top: -2em;
+	left: -1.3em;
+}
+#genero a
+{
+	text-transform: uppercase;
+	color: white;
+	font-weight: 300;
+	font-size: .740em;
+	text-decoration: none;
+}
+#genero li:nth-child(2)
+{
+	margin: 0 .8em;
+}
